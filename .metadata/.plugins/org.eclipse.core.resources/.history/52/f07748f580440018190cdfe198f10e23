@@ -1,0 +1,14 @@
+
+public class PrintStrings {
+	
+	public static void print(String str1, String str2)
+	{
+		System.out.println(str1);
+		
+		Thread.sleep(500);
+		
+		System.out.println(str2);
+		
+	}
+
+}

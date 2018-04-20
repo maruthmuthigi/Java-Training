@@ -1,0 +1,34 @@
+package com.Javatraining.Library;
+
+public class BookManager {
+
+		public static void printBook(Book1 book){
+			System.out.println("Book Name:= "+ book.getBookName());
+			System.out.println("Page Count:= "+ book.getPageCount());
+			System.out.println("Price:= "+ book.getPrice());
+			System.out.println("Author:= "+ book.getAuthor());
+			
+		}
+		// overloaded Print Book method - Argument needs to be changed.
+		public static void printBook(Book1[] books){
+			for (Book1 book:books){
+				//instead of providing individual Syso statement ..use the existing printBook method
+				printBook(book);
+			/*System.out.println("Book Name:= "+ book.getBookName());
+			System.out.println("Page Count:= "+ book.getPageCount());
+			System.out.println("Price:= "+ book.getPrice());
+			System.out.println("Author:= "+ book.getAuthor());*/
+			}
+		}
+		
+		public void printBill(Book1 book, int ItemCount){
+			double amount = book.getPrice()* ItemCount;
+			printBook(book);
+			//System.out.println(book);
+			System.out.println("Quantity:= " +ItemCount);
+			System.out.println("Price:= "+ amount);
+			
+			book.setPrice(book.getPrice()+100);
+		}
+		
+}

@@ -1,0 +1,10 @@
+
+public class PrintStrings {
+	
+	public static void print(String str1, String str2)
+	{
+		
+		
+	}
+
+}

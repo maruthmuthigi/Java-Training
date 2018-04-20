@@ -1,0 +1,60 @@
+package com.Javatraining;
+
+public class CatalogItem {
+	
+	private String itemName;
+	private String stockUnitIdentifer;
+	private double ratePerUnit;
+	public CatalogItem() {
+		super();
+		// TODO Auto-generated constructor stub
+		this.itemName = "Sony LED TV";
+		this.ratePerUnit = 25000;
+		this.stockUnitIdentifer = "SNY_BRAVO-42-2018-101";
+		
+	}
+	
+	//create a overload constructor
+	public CatalogItem(String itemName, String stockUnitIdentifer, double ratePerUnit) {
+		super();
+		this.itemName = "MI TV";
+		this.stockUnitIdentifer = "MI CP CN SP_2018";
+		this.ratePerUnit = 10000;
+	}
+
+	public String getItemName() {
+		return itemName;
+	}
+
+	public void setItemName(String itemName) {
+		this.itemName = itemName;
+	}
+
+	public String getStockUnitIdentifer() {
+		return stockUnitIdentifer;
+	}
+
+	public void setStockUnitIdentifer(String stockUnitIdentifer) {
+		this.stockUnitIdentifer = stockUnitIdentifer;
+	}
+
+	public double getRatePerUnit() {
+		return ratePerUnit;
+	}
+
+	public void setRatePerUnit(double ratePerUnit) {
+		this.ratePerUnit = ratePerUnit;
+	}
+	
+	public double calculateTex(){
+		double tax = ratePerUnit * 0.05;
+		return tax;
+	}
+	
+	
+	
+	
+	
+	
+
+}

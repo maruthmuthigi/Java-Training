@@ -1,0 +1,25 @@
+package com.Javatraining.poly.domains;
+
+import com.Javatraining.polyfaces.Automobile;
+
+public class MarutiCar implements Automobile {
+
+	@Override
+	public String getModel() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String getPrice() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String getColor() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

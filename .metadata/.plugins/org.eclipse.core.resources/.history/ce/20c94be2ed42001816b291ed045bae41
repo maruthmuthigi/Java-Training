@@ -1,0 +1,12 @@
+package com.Javatraining.Library;
+
+public class Application {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Book1 bName = new Book1("Java book", "MAruth", 1000, 500);
+		System.out.println("Book catalog: "+ bName.toString());
+
+	}
+
+}

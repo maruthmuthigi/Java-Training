@@ -1,0 +1,67 @@
+package com.Javatraining.Library;
+
+import com.Javatraining.Exceptions.RangeCheckedException;
+
+public class Application {
+
+	public static void main(String[] args)  {
+		Book1 javaBook  = null;
+		Book1 selinumBook = null;
+		Book1 dotNetBook = null;
+		try{
+			//variables inside try catch block will have blocked access
+			 javaBook = new Book1("Java book", "Maruth", 10, 500);
+			 selinumBook = new Book1("Selenium book", "Gade", 2000, 400);
+			 dotNetBook = new Book1("dotNetBook book", "Chiluvuri", 3000, 300);
+			
+		}
+		catch(RangeCheckedException e){
+			e.printStackTrace();
+		}
+		finally{
+			System.out.println("Inside Finally");
+			
+		}
+		// TODO Auto-generated method stub
+	
+		
+	//	System.out.println("Book catalog: "+ javaBook.toString());
+
+		try{
+			BookManager.printBook(javaBook);
+			
+		}
+		catch(NullPointerException e){
+			e.printStackTrace();
+			
+		}
+		finally{
+			System.out.println("Inside Finally1");
+			
+		}
+		
+		
+
+		BookManager mgr = new BookManager();
+		mgr.printBill(javaBook, 3);
+		
+		BookManager.printBook(javaBook);
+		
+		
+		Book1[] bk_List = {javaBook,selinumBook,dotNetBook};
+		BookManager.printBook(bk_List);
+		
+		
+		Librarian cheifLib = new Librarian(101,"Ganesh","Vizag");
+		System.out.println(cheifLib);
+		
+		System.out.println(javaBook.equals(selinumBook));
+		
+		Book1 bk= null;
+		System.out.println(javaBook.equals(bk));
+		
+		
+		
+	}
+
+}

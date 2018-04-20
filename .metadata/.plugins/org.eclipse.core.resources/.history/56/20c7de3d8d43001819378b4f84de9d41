@@ -1,0 +1,11 @@
+package com.Javatraining.Library;
+
+public class Librarian {
+	
+	private long empID;
+	private String name;
+	private String location;
+	
+	
+
+}

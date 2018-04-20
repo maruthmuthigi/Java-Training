@@ -1,0 +1,32 @@
+import java.util.ArrayList;
+import java.util.List;
+
+public class CustomerManager implements DAO {
+	
+	private List<Customer> customerList = null;
+	
+	
+	
+	public CustomerManager() {
+		super();
+		customerList = new ArrayList<Customer>();
+		
+		
+	}
+
+	@Override
+	public int add(Customer cust) {
+		customerList.add(cust);
+		
+		return cust;
+	}
+
+	@Override
+	public List<Customer> findAll() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+	
+
+}

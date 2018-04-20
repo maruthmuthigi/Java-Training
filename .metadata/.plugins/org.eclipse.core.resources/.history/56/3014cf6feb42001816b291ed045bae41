@@ -1,0 +1,68 @@
+package com.Javatraining;
+
+public class CatalogItem {
+	
+	private String itemName;
+	private String stockUnitIdentifer;
+	private double ratePerUnit;
+	public CatalogItem() {
+		super();
+		// TODO Auto-generated constructor stub
+		this.itemName = "Sony LED TV";
+		this.ratePerUnit = 25000;
+		this.stockUnitIdentifer = "SNY_BRAVO-42-2018-101";
+		
+	}
+	
+	//create a overload constructor
+	
+	public String getItemName() {
+		return itemName;
+	}
+
+	public CatalogItem(String itemName, String stockUnitIdentifer, double ratePerUnit) {
+		super();
+		this.itemName = itemName;
+		this.stockUnitIdentifer = stockUnitIdentifer;
+		this.ratePerUnit = ratePerUnit;
+	}
+
+	public void setItemName(String itemName) {
+		this.itemName = itemName;
+	}
+
+	public String getStockUnitIdentifer() {
+		return stockUnitIdentifer;
+	}
+
+	public void setStockUnitIdentifer(String stockUnitIdentifer) {
+		this.stockUnitIdentifer = stockUnitIdentifer;
+	}
+
+	public double getRatePerUnit() {
+		return ratePerUnit;
+	}
+
+	public void setRatePerUnit(double ratePerUnit) {
+		if(ratePerUnit<=0) 
+		{
+			System.out.println("This is invalid value");
+			this.ratePerUnit = Math.abs(ratePerUnit);
+		}
+		else{		
+		this.ratePerUnit = ratePerUnit;
+		}
+	}
+	
+	public double calculateTax(){
+		double tax = ratePerUnit * 0.05;
+		return tax;
+	}
+	
+	
+	
+	
+	
+	
+
+}

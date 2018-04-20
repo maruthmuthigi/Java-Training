@@ -1,0 +1,14 @@
+package com.Javatraining;
+
+public class TestCatalogItem {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		CatalogItem tv = new CatalogItem();
+		
+		System.out.println("Tax: = "+ tv.calculateTax());
+
+	}
+
+}

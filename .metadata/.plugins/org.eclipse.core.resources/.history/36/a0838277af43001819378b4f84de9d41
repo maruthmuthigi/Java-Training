@@ -1,0 +1,20 @@
+package com.Javatraining.poly.domains;
+
+import com.Javatraining.polyfaces.Automobile;
+
+public class ShowRoom {
+	
+	public Automobile getProduct(int key){
+		
+		switch (key) {
+		case 1:
+				return new MarutiCar();
+		case 2:
+				return new BajajBike();
+		default:
+			return null;
+		
+		}
+	}
+
+}

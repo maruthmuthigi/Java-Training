@@ -1,0 +1,15 @@
+
+public class Application {
+
+	public static void main(String[] args) {
+
+
+		CustomerManager mng = new CustomerManager();
+		mng.add(new Customer(101, "Ramesh", 9999999));
+		mng.add(new Customer(102, "Suresh", 8888888));
+		mng.add(new Customer(103, "Madesh", 7777777));
+		mng.add(new Customer(104, "Kamlesh",666666));
+
+	}
+
+}

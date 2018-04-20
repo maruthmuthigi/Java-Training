@@ -1,0 +1,5 @@
+import java.util.Comparator;
+
+public class CutomerNameComparator implements Comparator<T> {
+
+}

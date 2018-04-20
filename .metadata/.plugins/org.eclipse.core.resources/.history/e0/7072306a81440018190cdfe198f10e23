@@ -1,0 +1,11 @@
+
+public class UsePrintString implements Runnable {
+	private String str1;
+	private String str2;
+	@Override
+	public void run() {
+		PrintStrings.print(str1, str2);
+
+	}
+
+}

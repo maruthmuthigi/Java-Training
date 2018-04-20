@@ -1,0 +1,5 @@
+package com.Javatraining.poly.domains;
+
+public class NewShowRoom extends ShowRoom {
+
+}

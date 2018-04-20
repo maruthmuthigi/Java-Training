@@ -1,0 +1,9 @@
+package com.Javatraining.polyfaces;
+
+public interface Automobile {
+
+	// All the method in the interface are implicitly abstract and public
+	public String getModel();
+	public String getPrice();
+	public String getColor();
+}

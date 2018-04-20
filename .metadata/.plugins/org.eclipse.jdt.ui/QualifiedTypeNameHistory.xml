@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="com.Javatraining.CatalogItem"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="com.Javatraining.Library.Book1"/>
+<fullyQualifiedTypeName name="com.Javatraining.Library.BookManager"/>
+<fullyQualifiedTypeName name="com.Javatraining.Library.Librarian"/>
+<fullyQualifiedTypeName name="com.Javatraining.Library.EBook"/>
+<fullyQualifiedTypeName name="com.Javatraining.Library.Journals"/>
+<fullyQualifiedTypeName name="com.Javatraining.Library.LibraryManager"/>
+<fullyQualifiedTypeName name="com.Javatraining.Library.LibraryItem"/>
+<fullyQualifiedTypeName name="com.Javatraining.poly.domains.MarutiCar"/>
+<fullyQualifiedTypeName name="com.Javatraining.poly.domains.BajajBike"/>
+<fullyQualifiedTypeName name="java.lang.Integer"/>
+<fullyQualifiedTypeName name="com.Javatraining.poly.domains.ShowRoom"/>
+<fullyQualifiedTypeName name="com.Javatraining.polyfaces.Automobile"/>
+<fullyQualifiedTypeName name="com.Javatraining.poly.domains.Tractor"/>
+<fullyQualifiedTypeName name="com.Javatraining.Exceptions.RangeCheckedException"/>
+<fullyQualifiedTypeName name="java.lang.NullPointerException"/>
+<fullyQualifiedTypeName name="CustomerManager"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.lang.Comparable"/>
+<fullyQualifiedTypeName name="Customer"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.util.Collections"/>
+<fullyQualifiedTypeName name="java.util.Comparator"/>
+<fullyQualifiedTypeName name="CutomerNameComparator"/>
+<fullyQualifiedTypeName name="PhoneNumberComparator"/>
+<fullyQualifiedTypeName name="PrintStrings"/>
+<fullyQualifiedTypeName name="java.lang.Thread"/>
+</qualifiedTypeNameHistroy>

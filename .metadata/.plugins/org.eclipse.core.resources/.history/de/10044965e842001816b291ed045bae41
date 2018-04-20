@@ -1,0 +1,26 @@
+package com.Javatraining;
+
+public class TestCatalogItem {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		CatalogItem tv = new CatalogItem();
+		
+		System.out.println("Tax: = "+ tv.calculateTax());
+		
+		CatalogItem wmachine = new CatalogItem("waching machine", "IFB-20152asdf", 13000);
+		System.out.println("Waching machine tax: "+ wmachine.calculateTax());
+		
+		CatalogItem lappys = new CatalogItem();
+		lappys.setItemName("Laptop");
+		lappys.setRatePerUnit(34000);
+		lappys.setStockUnitIdentifer("LENOVO Z560I");
+		
+		System.out.println("LAptop tax: ="+ lappys.calculateTax());
+		
+	
+
+	}
+
+}

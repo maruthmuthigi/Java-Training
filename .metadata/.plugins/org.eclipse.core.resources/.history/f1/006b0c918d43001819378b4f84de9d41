@@ -1,0 +1,29 @@
+package com.Javatraining.Library;
+
+public class Application {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Book1 javaBook = new Book1("Java book", "Maruth", 1000, 500);
+		Book1 selinumBook = new Book1("Selenium book", "Gade", 2000, 400);
+		Book1 dotNetBook = new Book1("dotNetBook book", "Chiluvuri", 3000, 300);
+		
+	//	System.out.println("Book catalog: "+ javaBook.toString());
+
+
+		BookManager.printBook(javaBook);
+		
+
+		BookManager mgr = new BookManager();
+		mgr.printBill(javaBook, 3);
+		
+		BookManager.printBook(javaBook);
+		
+		
+		Book1[] bk_List = {javaBook,selinumBook,dotNetBook};
+		BookManager.printBook(bk_List);
+		
+		
+	}
+
+}

@@ -1,0 +1,8 @@
+package com.Javatraining.Library;
+
+public class EBook extends LibraryItem {
+	
+	private int numberOfTracks;
+	private double duration;
+
+}

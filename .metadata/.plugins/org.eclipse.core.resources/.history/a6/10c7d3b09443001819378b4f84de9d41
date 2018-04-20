@@ -1,0 +1,12 @@
+package com.Javatraining.Library;
+
+public class LibraryItem {
+
+	private String itemName;
+	private long itemCode;
+	private String author;
+	
+	
+	
+	
+}

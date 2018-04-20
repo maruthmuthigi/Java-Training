@@ -1,0 +1,64 @@
+package com.Javatraining.Library;
+
+public class Librarian {
+	
+	private long empID;
+	private String name;
+	private String location;
+	
+	@Override
+	public String toString() {
+		// TODO Auto-generated method stub
+		return this.name + " ," + this.location+ ","+ super.toString();
+		//return super.toString();
+	}
+	
+	
+	public Librarian() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+	
+	
+
+	public Librarian(long empID, String name, String location) {
+		super();
+		this.empID = empID;
+		this.name = name;
+		this.location = location;
+	}
+
+
+	public long getEmpID() {
+		return empID;
+	}
+
+	public void setEmpID(long empID) {
+		this.empID = empID;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public String getLocation() {
+		return location;
+	}
+
+	public void setLocation(String location) {
+		this.location = location;
+	}
+
+	
+	
+	
+	
+	
+	
+	
+
+}

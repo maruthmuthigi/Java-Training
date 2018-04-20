@@ -1,0 +1,5 @@
+package com.Javatraining.polyfaces;
+
+public interface Automobile {
+
+}
