@@ -1,0 +1,28 @@
+import java.util.*;
+import java.io.*;
+
+public class IOExamples {
+	
+	public void writeToFile(Set cust)
+	{
+		FileWriter writer = null;
+		try {
+			FileWriter writer = new FileWriter(new File("Customer.txt"), true);
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		finally{
+			writer.close();
+		}
+	}
+	
+	public Map<Integer,Customer> readFromFile()
+	{
+		return null;
+		
+	}
+	
+	
+
+}

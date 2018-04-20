@@ -1,0 +1,20 @@
+import java.util.*;
+import java.io.*;
+
+public class IOExamples {
+	
+	public void writeToFile(Set cust)
+	{
+		
+		
+	}
+	
+	public Map<Integer,Customer> readFromFile()
+	{
+		return null;
+		
+	}
+	
+	
+
+}

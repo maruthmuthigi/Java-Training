@@ -1,0 +1,38 @@
+import java.util.*;
+import java.io.*;
+
+public class IOExamples {
+	
+	public void writeToFile(Set<Customer> custList)
+	{
+		PrintWriter writer = null;
+		try {
+				writer = new PrintWriter(new FileWriter(new File("Customer.txt"), true));
+				for(Customer eachCustomer: custList){
+					writer.println(eachCustomer);
+				}
+				
+				
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		finally{
+			try {
+				writer.close();
+			} catch (Exception e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+		}
+	}
+	
+	public Map<Integer,Customer> readFromFile()
+	{
+		return null;
+		
+	}
+	
+	
+
+}
